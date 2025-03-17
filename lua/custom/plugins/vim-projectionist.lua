@@ -23,6 +23,14 @@ local M = {
         \      'alternate': '{}.py',
         \      'skeleton': 'case'
         \     },
+        \    'src/*.erl':  {
+        \       'skeleton': 'mod',
+        \       'alternate': 'test/{}_tests.erl'
+        \    },
+        \    'test/*_tests.erl':  {
+        \      'alternate': 'src/{}.erl',
+        \      'skeleton': 'case'
+        \     },
         \ })
       augroup END
       ]]

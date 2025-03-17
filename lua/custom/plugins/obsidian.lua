@@ -21,7 +21,7 @@ local M = {
     workspaces = {
       {
         name = 'Notes',
-        path = '/Users/eborsa/Eduardo/Notes',
+        path = '/Users/eduardoborsa/Eduardo/Notes',
       },
     },
     completion = {
